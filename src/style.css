@@ -1,0 +1,37 @@
+.content-col {
+    /* background: blue; */
+    flex: 33%;
+    padding: 4px;
+}
+
+.action-col {
+    /* background: green; */
+    flex: 33%;
+}
+
+.nav-bar {
+    width: 100%;
+    background: #ccffcc;
+    position: fixed;
+    z-index: 40;
+}
+
+.page-row {
+    display: flex;
+    position: relative;
+    top: 50px;
+    z-index: 35;
+}
+
+#hamburger-icon {
+    width: 33px;
+    height: 33px;
+}
+
+#hamburger-icon:hover {
+    cursor: pointer;
+}
+
+#hamburger-l1 {
+    display: none;
+}
